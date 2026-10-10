@@ -28,17 +28,12 @@ author:
   uri: ""
   email: ""
   github: "Adarsha-Subedi"
-  googlescholar: ""
-  orcid: ""
   linkedin: ""
   bluesky: ""
-  twitter: ""
   researchgate: ""
-  academia: ""
-  arxiv: ""
 
 # TODO: Add your confirmed university/program, academic email, office/location,
-# profile photo, Google Scholar/ORCID/LinkedIn URLs, and CV PDF when available.
+# profile photo, LinkedIn URL, and CV PDF when available.
 include:
   - _pages
   - files
