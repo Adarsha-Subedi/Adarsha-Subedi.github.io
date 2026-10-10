@@ -1,0 +1,103 @@
+# AcademicPages theme configuration.
+# Edit this file to update the sidebar and site metadata.
+remote_theme: academicpages/academicpages.github.io
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
+
+locale: "en-US"
+title: "Adarsha Subedi"
+title_separator: "-"
+name: "Adarsha Subedi"
+description: "Academic website of Adarsha Subedi, economics."
+url: "https://adarsha-subedi.github.io"
+baseurl: ""
+repository: "Adarsha-Subedi/Adarsha-Subedi.github.io"
+site_theme: "default"
+
+author:
+  name: "Adarsha Subedi"
+  avatar: "profile.svg"
+  bio: "Economics · Migration, remittances, human capital"
+  location: ""
+  employer: ""
+  uri: ""
+  email: ""
+  github: "Adarsha-Subedi"
+  googlescholar: ""
+  orcid: ""
+  linkedin: ""
+  bluesky: ""
+  twitter: ""
+  researchgate: ""
+  academia: ""
+  arxiv: ""
+
+# TODO: Add your confirmed university/program, academic email, office/location,
+# profile photo, Google Scholar/ORCID/LinkedIn URLs, and CV PDF when available.
+include:
+  - _pages
+  - files
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+future: true
+timezone: America/New_York
+
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+
+atom_feed:
+  hide: false
