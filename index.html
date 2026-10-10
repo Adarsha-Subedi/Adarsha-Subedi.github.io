@@ -3,149 +3,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Adarsha Subedi — economics researcher interested in migration, remittances, human capital, and public economics.">
-  <meta name="theme-color" content="#f7f6f2">
-  <title>Adarsha Subedi | Economics</title>
+  <meta name="description" content="Adarsha Subedi — economics, research, and teaching.">
+  <title>Adarsha Subedi</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="wordmark" href="#home" aria-label="Adarsha Subedi home">AS<span>.</span></a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
-      <div class="nav-links" id="nav-links">
-        <a href="#about">About</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="site-title" href="#home">Adarsha Subedi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#home">About me</a>
         <a href="#research">Research</a>
-        <a href="#papers">Papers</a>
         <a href="#teaching">Teaching</a>
         <a href="#cv">CV</a>
-        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-  <main id="main">
-    <section class="hero container" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Economics · Research & teaching</p>
-        <h1>Adarsha<br><em>Subedi.</em></h1>
-        <p class="hero-lede">I study how people, households, and institutions make decisions—and how economic policy shapes their opportunities.</p>
-        <p class="hero-note">Research interests: migration, remittances, human capital, public economics, and industrial organization.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#research">Explore my research <span aria-hidden="true">↘</span></a>
-          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-      <aside class="hero-aside" aria-label="Academic profile">
-        <div class="monogram" aria-hidden="true">AS<span> / </span>ECON</div>
-        <div class="aside-rule"></div>
-        <p class="aside-label">Currently exploring</p>
-        <p class="aside-feature">Migration, household investment, and the economics of human capital.</p>
-        <p class="aside-foot">Personal academic website</p>
-      </aside>
-      <div class="hero-index" aria-hidden="true"><span>01</span> — PROFILE</div>
-    </section>
+  <div class="page-layout" id="home">
+    <aside class="profile">
+      <div class="profile-monogram" aria-label="Adarsha Subedi initials">AS</div>
+      <h1>Adarsha Subedi</h1>
+      <p class="profile-role">Economics · Research &amp; teaching</p>
+      <p class="profile-bio">Interested in development, migration, remittances, and human capital.</p>
+      <ul class="profile-links">
+        <li><span class="profile-icon" aria-hidden="true">⌂</span> Economics</li>
+        <li><span class="profile-icon" aria-hidden="true">✉</span> <a href="https://github.com/Adarsha-Subedi">GitHub profile</a></li>
+      </ul>
+      <a class="follow-button" href="https://github.com/Adarsha-Subedi" target="_blank" rel="noreferrer">Follow on GitHub</a>
+    </aside>
 
-    <section class="section section-paper" id="about">
-      <div class="container section-grid">
-        <div class="section-heading">
-          <p class="eyebrow">01 / About</p>
-          <h2>Curiosity, guided<br>by evidence.</h2>
-        </div>
-        <div class="section-body">
-          <p class="lead">I am an economics researcher with interests in applied and theoretical questions about development, household decisions, and public policy.</p>
-          <p>My current interests include the links between migration and remittances, investments in education and human capital, and the incentives created by economic institutions. I am also interested in public finance and industrial organization.</p>
-          <p>This site is a home for my research, working papers, teaching materials, and academic updates. It will grow as projects develop.</p>
-          <div class="detail-row"><span>Field</span><span>Economics</span></div>
-          <div class="detail-row"><span>Research approach</span><span>Theory · Applied microeconomics</span></div>
-        </div>
-      </div>
-    </section>
+    <main class="content">
+      <section id="about">
+        <h2>About me</h2>
+        <p>I am an economics researcher interested in how households make decisions and how economic institutions and public policy shape people's opportunities.</p>
+        <p>My interests include migration and remittances, education and human capital, public economics, and industrial organization. I am interested in both the theoretical mechanisms behind economic behavior and empirical work that helps us understand real-world outcomes.</p>
+        <p>This website brings together information about my research interests, projects, teaching, and academic work. I will update it as papers and materials become available.</p>
+      </section>
 
-    <section class="section" id="research">
-      <div class="container">
-        <div class="section-topline">
-          <div><p class="eyebrow">02 / Research</p><h2>Questions I’m interested in.</h2></div>
-          <p class="section-intro">A few themes that shape the way I think about economics.</p>
-        </div>
-        <div class="research-grid">
-          <article class="research-card">
-            <span class="card-number">01</span><div class="card-icon" aria-hidden="true">↗</div>
-            <h3>Migration & remittances</h3>
-            <p>How migration changes household resources, choices, and economic outcomes in origin communities.</p>
-            <div class="tag-list"><span>Development</span><span>Households</span></div>
-          </article>
-          <article class="research-card">
-            <span class="card-number">02</span><div class="card-icon" aria-hidden="true">⌁</div>
-            <h3>Education & human capital</h3>
-            <p>How families invest in education and skills, and how financial constraints and incentives shape those decisions.</p>
-            <div class="tag-list"><span>Human capital</span><span>Labor</span></div>
-          </article>
-          <article class="research-card">
-            <span class="card-number">03</span><div class="card-icon" aria-hidden="true">∑</div>
-            <h3>Public economics</h3>
-            <p>How public policies affect behavior, welfare, and the distribution of economic opportunities.</p>
-            <div class="tag-list"><span>Policy</span><span>Welfare</span></div>
-          </article>
-          <article class="research-card">
-            <span class="card-number">04</span><div class="card-icon" aria-hidden="true">⌘</div>
-            <h3>Industrial organization</h3>
-            <p>How market structure, strategic interaction, and information influence firm and consumer behavior.</p>
-            <div class="tag-list"><span>Market design</span><span>Economic theory</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
+      <section id="research">
+        <h2>Research</h2>
+        <p>My research interests span development and applied microeconomics, with particular attention to the choices made by households and the incentives created by policy.</p>
+        <ul class="research-list">
+          <li><strong>Migration and remittances.</strong> Household decisions, resource allocation, and economic outcomes in communities of origin.</li>
+          <li><strong>Education and human capital.</strong> Investment in skills and schooling, constraints on household choices, and long-run outcomes.</li>
+          <li><strong>Public economics.</strong> Policy design, incentives, and the effects of public programs on behavior and welfare.</li>
+          <li><strong>Industrial organization.</strong> Market structure, strategic interaction, and the role of information in markets.</li>
+        </ul>
+      </section>
 
-    <section class="section section-ink" id="papers">
-      <div class="container">
-        <div class="section-topline">
-          <div><p class="eyebrow eyebrow-light">03 / Papers & projects</p><h2>Research in progress.</h2></div>
-          <p class="section-intro">Selected work will appear here as papers and projects are ready to share.</p>
-        </div>
-        <div class="paper-placeholder">
-          <span class="paper-symbol" aria-hidden="true">✳</span>
-          <div><h3>Research portfolio coming soon</h3><p>Working papers, publications, presentations, and project materials will be added here. No unpublished work is listed until details are ready to share.</p></div>
-          <span class="paper-arrow" aria-hidden="true">↗</span>
-        </div>
-      </div>
-    </section>
+      <section id="papers">
+        <h2>Working papers &amp; publications</h2>
+        <p>Research papers and project links will be added here when they are ready to share.</p>
+      </section>
 
-    <section class="section section-paper" id="teaching">
-      <div class="container section-grid">
-        <div class="section-heading"><p class="eyebrow">04 / Teaching</p><h2>Making economics<br>understandable.</h2></div>
-        <div class="section-body">
-          <p class="lead">I value clear explanations, careful reasoning, and connecting formal economic models to real-world questions.</p>
-          <p>Course information, teaching experience, office hours, and learning materials can be added here as relevant details become available.</p>
-          <div class="detail-row"><span>Areas of interest</span><span>Microeconomics · Econometrics</span></div>
-          <div class="detail-row"><span>Materials</span><span>Coming soon</span></div>
-        </div>
-      </div>
-    </section>
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <p>My teaching interests include microeconomics, econometrics, and the use of economic models to reason clearly about policy and real-world questions. Course details and teaching materials will be added as relevant.</p>
+      </section>
 
-    <section class="section cv-section" id="cv">
-      <div class="container cv-banner">
-        <div><p class="eyebrow">05 / Curriculum vitae</p><h2>A record of the work.</h2><p>My academic CV will include education, research, teaching, presentations, and other professional activities.</p></div>
-        <a class="button button-light" href="#contact">Request CV <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
+      <section id="cv">
+        <h2>Curriculum vitae</h2>
+        <p>My CV will be available here. In the meantime, please visit my <a href="https://github.com/Adarsha-Subedi">GitHub profile</a> for projects and updates.</p>
+      </section>
 
-    <section class="section contact-section" id="contact">
-      <div class="container contact-layout">
-        <div><p class="eyebrow">06 / Contact</p><h2>Let’s talk<br><em>economics.</em></h2></div>
-        <div class="contact-copy"><p>For research conversations, seminar invitations, or academic collaboration, feel free to get in touch.</p><p class="contact-note">Contact details and academic profiles will be added here.</p><a class="text-link" href="https://github.com/Adarsha-Subedi" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a></div>
-      </div>
-    </section>
-  </main>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>For academic conversations, research collaboration, or seminar inquiries, you can connect with me through <a href="https://github.com/Adarsha-Subedi">GitHub</a>. An academic email address will be added here.</p>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-inner"><a class="wordmark" href="#home">AS<span>.</span></a><p>© <span id="year">2026</span> Adarsha Subedi</p><a href="#home" class="back-top">Back to top ↑</a></div>
-  </footer>
+      <footer class="page-footer">
+        <p><a href="#home">Sitemap</a> · © <span id="year">2026</span> Adarsha Subedi</p>
+        <p class="powered">Built with GitHub Pages.</p>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
