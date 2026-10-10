@@ -13,6 +13,6 @@ My interests include migration and remittances, education and human capital, pub
 
 <!-- PLACEHOLDER: Add a short paragraph with your current program/position and university affiliation when confirmed. -->
 
-[Add a link to your CV](#cv-placeholder) when your CV PDF is ready.
+You can find my [CV page](/cv/) here; a downloadable PDF will be added when ready.
 
 <!-- PLACEHOLDER: Replace the CV link above with /files/Adarsha_Subedi_CV.pdf once you upload your CV to the files/ folder. -->
