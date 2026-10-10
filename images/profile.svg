@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">A neutral placeholder with the initials AS. Replace with a professional portrait when ready.</desc>
+  <rect width="400" height="400" fill="#e9eeee"/>
+  <circle cx="200" cy="150" r="72" fill="#b6c5c8"/>
+  <path d="M65 380c8-91 60-143 135-143s127 52 135 143" fill="#b6c5c8"/>
+  <text x="200" y="345" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#526b73">AS</text>
+</svg>
