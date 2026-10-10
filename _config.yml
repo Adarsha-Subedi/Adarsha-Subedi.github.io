@@ -23,8 +23,8 @@ author:
   name: "Adarsha Subedi"
   avatar: "profile.svg"
   bio: "Economics · Migration, remittances, human capital"
-  location: ""
-  employer: ""
+  location: "Clemson, SC, USA"
+  employer: "Clemson University"
   uri: ""
   email: ""
   github: "Adarsha-Subedi"
@@ -32,7 +32,7 @@ author:
   bluesky: ""
   researchgate: ""
 
-# TODO: Add your confirmed university/program, academic email, office/location,
+# TODO: Add your confirmed program, academic email, office details,
 # profile photo, LinkedIn URL, and CV PDF when available.
 include:
   - _pages
