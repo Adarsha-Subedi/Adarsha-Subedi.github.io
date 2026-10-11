@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an economics researcher interested in how households make decisions and how economic institutions and public policy shape people's opportunities.
+I am a PhD Candidate in Economics at Clemson University.
 
-My interests include migration and remittances, education and human capital, public economics, and industrial organization. I am interested in both the theoretical mechanisms behind economic behavior and empirical work that helps us understand real-world outcomes.
-
-<!-- PLACEHOLDER: Add a short paragraph with your current program/position and university affiliation when confirmed. -->
+I am a student of economics with research interests in macroeconomics and development economics. I study how policy design shapes household decisions, resource allocation, and economic outcomes in developing economies, with a particular focus on misallocation and productivity.
 
 You can find me on [Bluesky](https://bsky.app/profile/adarshasubedi.bsky.social), [LinkedIn](https://www.linkedin.com/in/adarshasubedi22/), and [ResearchGate](https://www.researchgate.net/profile/Adarsha-Subedi-3). You can also visit my [CV page](/cv/); a downloadable PDF will be added when ready.
 
