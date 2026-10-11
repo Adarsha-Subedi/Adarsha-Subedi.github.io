@@ -4,16 +4,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-My curriculum vitae will be available here.
+Click here to open my [CV](/Adarsha_Subedi_CV.pdf) as a PDF in your browser.
 
-<!-- PLACEHOLDER: Upload your PDF to files/Adarsha_Subedi_CV.pdf, then replace this note with:
-[Download my CV](/files/Adarsha_Subedi_CV.pdf)
--->
-
-Sections to add when details are ready:
-- Education
-- Research interests
-- Working papers and publications
-- Teaching experience
-- Presentations and conferences
-- Awards, service, and professional experience
+<iframe src="/Adarsha_Subedi_CV.pdf" width="100%" height="900" style="border: none;" title="Adarsha Subedi CV"></iframe>
