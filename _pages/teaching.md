@@ -8,9 +8,8 @@ author_profile: true
 
 - ECON 2120 Principles of Macroeconomics (Fall 2026– )
 
-## Teaching Assistant
+## Teaching Assistant, Clemson University
 
 - ECON 2110 Principles of Microeconomics (Fall 2024)
 - ECON 3140 Intermediate Microeconomics (Fall 2025)
 - ECON 8710 Econometric Analysis for Business (Spring 2025)
-- [Placeholder: Add teaching responsibilities, course materials, or other details.]
