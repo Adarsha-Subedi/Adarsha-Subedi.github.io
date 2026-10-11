@@ -4,8 +4,12 @@ permalink: /teaching/
 author_profile: true
 ---
 
-My teaching interests include microeconomics, econometrics, and using economic models to reason clearly about policy and real-world questions.
+## Graduate Teacher of Record, Clemson University
 
-<!-- PLACEHOLDER: Add courses taught or assisted, institutions, semesters, teaching evaluations, and course materials when applicable. -->
+- [Placeholder: Add course name, semester, and level.]
+- [Placeholder: Add teaching responsibilities, course materials, or other details.]
 
-Course details and teaching materials will be added as relevant information becomes available.
+## Teaching Assistant
+
+- [Placeholder: Add course name, institution, and semester.]
+- [Placeholder: Add teaching responsibilities, course materials, or other details.]
