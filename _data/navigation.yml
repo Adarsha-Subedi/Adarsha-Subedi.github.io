@@ -1,7 +1,5 @@
 # Navigation links modeled on the reference academic website.
 main:
-  - title: "About me"
-    url: /
   - title: "Research"
     url: /research/
   - title: "Teaching"
